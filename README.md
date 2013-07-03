@@ -4,7 +4,7 @@ puppet-ea-origin
 EA Origin install script for Github Boxen
 
 ````
-include ea-origin
+include ea_origin
 ````
 
 ### Required Puppet Modules
