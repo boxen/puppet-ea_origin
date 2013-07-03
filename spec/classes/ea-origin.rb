@@ -10,7 +10,7 @@ describe 'ea-origin' do
   it do
     should contain_package('ea-origin').with({
       :source   => 'https://eaassets-a.akamaihd.net/Origin-Client-Download/origin/mac/Origin.dmg',
-      :provider => 'appdmg'
+      :provider => 'appdmg_eula'
     })
   end
 end
